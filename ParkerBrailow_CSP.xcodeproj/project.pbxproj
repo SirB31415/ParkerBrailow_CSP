@@ -13,6 +13,13 @@
 		FA91E5B11FA256DF008B11CE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FA91E5B01FA256DF008B11CE /* Assets.xcassets */; };
 		FA91E5B41FA256DF008B11CE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA91E5B21FA256DF008B11CE /* LaunchScreen.storyboard */; };
 		FA91E5BF1FA256DF008B11CE /* ParkerBrailow_CSPTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA91E5BE1FA256DF008B11CE /* ParkerBrailow_CSPTests.swift */; };
+		FA91E5CE1FA25CBA008B11CE /* Creativity.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA91E5CD1FA25CBA008B11CE /* Creativity.swift */; };
+		FA91E5D01FA25CCB008B11CE /* Abstraction.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA91E5CF1FA25CCB008B11CE /* Abstraction.swift */; };
+		FA91E5D21FA25CDF008B11CE /* Data and Information.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA91E5D11FA25CDF008B11CE /* Data and Information.swift */; };
+		FA91E5D41FA25CF7008B11CE /* Algorithms.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA91E5D31FA25CF7008B11CE /* Algorithms.swift */; };
+		FA91E5D61FA25D08008B11CE /* Programming.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA91E5D51FA25D08008B11CE /* Programming.swift */; };
+		FA91E5D81FA25D1E008B11CE /* The Internet.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA91E5D71FA25D1E008B11CE /* The Internet.swift */; };
+		FA91E5DA1FA25D36008B11CE /* Global Impact.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA91E5D91FA25D36008B11CE /* Global Impact.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +43,13 @@
 		FA91E5BA1FA256DF008B11CE /* ParkerBrailow_CSPTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ParkerBrailow_CSPTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FA91E5BE1FA256DF008B11CE /* ParkerBrailow_CSPTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParkerBrailow_CSPTests.swift; sourceTree = "<group>"; };
 		FA91E5C01FA256DF008B11CE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FA91E5CD1FA25CBA008B11CE /* Creativity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Creativity.swift; sourceTree = "<group>"; };
+		FA91E5CF1FA25CCB008B11CE /* Abstraction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Abstraction.swift; sourceTree = "<group>"; };
+		FA91E5D11FA25CDF008B11CE /* Data and Information.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Data and Information.swift"; sourceTree = "<group>"; };
+		FA91E5D31FA25CF7008B11CE /* Algorithms.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Algorithms.swift; sourceTree = "<group>"; };
+		FA91E5D51FA25D08008B11CE /* Programming.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Programming.swift; sourceTree = "<group>"; };
+		FA91E5D71FA25D1E008B11CE /* The Internet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "The Internet.swift"; sourceTree = "<group>"; };
+		FA91E5D91FA25D36008B11CE /* Global Impact.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Global Impact.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +114,13 @@
 			children = (
 				FA91E5AB1FA256DF008B11CE /* ViewController.swift */,
 				FA91E5A91FA256DF008B11CE /* AppDelegate.swift */,
+				FA91E5CD1FA25CBA008B11CE /* Creativity.swift */,
+				FA91E5CF1FA25CCB008B11CE /* Abstraction.swift */,
+				FA91E5D11FA25CDF008B11CE /* Data and Information.swift */,
+				FA91E5D31FA25CF7008B11CE /* Algorithms.swift */,
+				FA91E5D51FA25D08008B11CE /* Programming.swift */,
+				FA91E5D71FA25D1E008B11CE /* The Internet.swift */,
+				FA91E5D91FA25D36008B11CE /* Global Impact.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -231,8 +252,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FA91E5DA1FA25D36008B11CE /* Global Impact.swift in Sources */,
+				FA91E5CE1FA25CBA008B11CE /* Creativity.swift in Sources */,
 				FA91E5AC1FA256DF008B11CE /* ViewController.swift in Sources */,
+				FA91E5D21FA25CDF008B11CE /* Data and Information.swift in Sources */,
+				FA91E5D01FA25CCB008B11CE /* Abstraction.swift in Sources */,
+				FA91E5D61FA25D08008B11CE /* Programming.swift in Sources */,
 				FA91E5AA1FA256DF008B11CE /* AppDelegate.swift in Sources */,
+				FA91E5D41FA25CF7008B11CE /* Algorithms.swift in Sources */,
+				FA91E5D81FA25D1E008B11CE /* The Internet.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
