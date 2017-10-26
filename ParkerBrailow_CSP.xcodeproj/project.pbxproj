@@ -77,12 +77,11 @@
 		FA91E5A81FA256DF008B11CE /* ParkerBrailow_CSP */ = {
 			isa = PBXGroup;
 			children = (
-				FA91E5A91FA256DF008B11CE /* AppDelegate.swift */,
-				FA91E5AB1FA256DF008B11CE /* ViewController.swift */,
-				FA91E5AD1FA256DF008B11CE /* Main.storyboard */,
-				FA91E5B01FA256DF008B11CE /* Assets.xcassets */,
+				FA91E5CC1FA25779008B11CE /* Resources */,
+				FA91E5CB1FA2576D008B11CE /* Model */,
+				FA91E5CA1FA2575C008B11CE /* View */,
+				FA91E5C91FA25739008B11CE /* Controller */,
 				FA91E5B21FA256DF008B11CE /* LaunchScreen.storyboard */,
-				FA91E5B51FA256DF008B11CE /* Info.plist */,
 			);
 			path = ParkerBrailow_CSP;
 			sourceTree = "<group>";
@@ -94,6 +93,39 @@
 				FA91E5C01FA256DF008B11CE /* Info.plist */,
 			);
 			path = ParkerBrailow_CSPTests;
+			sourceTree = "<group>";
+		};
+		FA91E5C91FA25739008B11CE /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				FA91E5AB1FA256DF008B11CE /* ViewController.swift */,
+				FA91E5A91FA256DF008B11CE /* AppDelegate.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		FA91E5CA1FA2575C008B11CE /* View */ = {
+			isa = PBXGroup;
+			children = (
+				FA91E5AD1FA256DF008B11CE /* Main.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		FA91E5CB1FA2576D008B11CE /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		FA91E5CC1FA25779008B11CE /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				FA91E5B51FA256DF008B11CE /* Info.plist */,
+				FA91E5B01FA256DF008B11CE /* Assets.xcassets */,
+			);
+			path = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
