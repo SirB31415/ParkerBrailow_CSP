@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FA4AD9AD1FB3A5A600B6EE5D /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FA4AD9AC1FB3A5A600B6EE5D /* Default-568h@2x.png */; };
 		FA91E5AA1FA256DF008B11CE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA91E5A91FA256DF008B11CE /* AppDelegate.swift */; };
 		FA91E5AC1FA256DF008B11CE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA91E5AB1FA256DF008B11CE /* ViewController.swift */; };
 		FA91E5AF1FA256DF008B11CE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA91E5AD1FA256DF008B11CE /* Main.storyboard */; };
@@ -33,6 +34,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		FA4AD9AC1FB3A5A600B6EE5D /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		FA91E5A61FA256DF008B11CE /* ParkerBrailow_CSP.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ParkerBrailow_CSP.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FA91E5A91FA256DF008B11CE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FA91E5AB1FA256DF008B11CE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -73,6 +75,7 @@
 		FA91E59D1FA256DF008B11CE = {
 			isa = PBXGroup;
 			children = (
+				FA4AD9AC1FB3A5A600B6EE5D /* Default-568h@2x.png */,
 				FA91E5A81FA256DF008B11CE /* ParkerBrailow_CSP */,
 				FA91E5BD1FA256DF008B11CE /* ParkerBrailow_CSPTests */,
 				FA91E5A71FA256DF008B11CE /* Products */,
@@ -233,6 +236,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				FA91E5B41FA256DF008B11CE /* LaunchScreen.storyboard in Resources */,
+				FA4AD9AD1FB3A5A600B6EE5D /* Default-568h@2x.png in Resources */,
 				FA91E5B11FA256DF008B11CE /* Assets.xcassets in Resources */,
 				FA91E5AF1FA256DF008B11CE /* Main.storyboard in Resources */,
 			);
