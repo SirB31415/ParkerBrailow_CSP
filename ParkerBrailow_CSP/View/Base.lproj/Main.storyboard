@@ -134,7 +134,7 @@
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="9" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Mtd-sh-YQ6">
                                 <rect key="frame" x="0.0" y="0.0" width="375" height="152"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <mutableString key="text">Our app helps to solve the global crisis of climate change by raising awareness to the individual. By showing the amount of carbon emissions reduced, it gives a feeling of satisfaction towards helping the environment. It will give specific numbers and information about the amount of carbon emissions saved by walking, biking, or carpooling. In addition to this, we will have a page about different ways you could reduce your carbon footprint such as energy efficient light bulbs, reducing carbon emissions, and water management. </mutableString>
+                                <string key="text">Our app helps to solve the global crisis of climate change by raising awareness to the individual. By showing the amount of carbon emissions reduced, it gives a feeling of satisfaction towards helping the environment. It will give specific numbers and information about the amount of carbon emissions saved by walking, biking, or carpooling. In addition to this, we will have a page about different ways you could reduce your carbon footprint such as energy efficient light bulbs, reducing carbon emissions, and water management. </string>
                                 <fontDescription key="fontDescription" type="system" pointSize="13"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -143,6 +143,9 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <viewLayoutGuide key="safeArea" id="5Y1-rx-f1R"/>
                     </view>
+                    <connections>
+                        <outlet property="AddressProblem" destination="s4f-23-mMB" id="wda-fd-oFw"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Eib-pL-Pkh" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -170,13 +173,35 @@
                     <view key="view" contentMode="scaleToFill" id="Suw-gd-Pln">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="8" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="oW8-Mp-52n">
+                                <rect key="frame" x="16" y="20" width="343" height="127"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <string key="text">The internet is the most prominent human innovation of our time. The internet is able to connect human ideas in ways that were never thought possible. The internet has allowed the human colossus to grow its technological capacities in ways that would seem impossible to people of earlier times. The internet is catapulting humanity into the most prominent event in human history—the technological singularity.</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="24" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rIz-Rq-c1K">
+                                <rect key="frame" x="16" y="320" width="343" height="327"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <mutableString key="text">URL (Uniform Resource Location): The address of a World Wide Web page.TCP (Transmission Control Protocol): Set of rules that uses the Internet Protocol and sets up a connection between the sending and receiving computers.IP (Internet Protocol): A set of rules governing the format of data sent over the internet or other network.DNS (Domain Name System): The Internet’s system, for converting alphabetic names into numeric IP addresses.College Board AP CSP homepage:https://apstudent.collegeboard.org/apcourse/ap-computer-science-principlesCanyons District:http://www.canyonsdistrict.orgCTEC:https://ctec.orgSwift Language Guide:https://developer.apple.com/library/content/documentation/Swift/Conceptual/Swift_Programming_Language/TheBasics.html#//apple_ref/doc/uid/TP40014097-CH5-ID309Twitter:https://twitter.com</mutableString>
+                                <fontDescription key="fontDescription" type="system" pointSize="11"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="interwebs" translatesAutoresizingMaskIntoConstraints="NO" id="swo-2k-0pu">
+                                <rect key="frame" x="49" y="149" width="277" height="169"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <viewLayoutGuide key="safeArea" id="sbD-Ai-5df"/>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="OrN-U2-f1E" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1716" y="32"/>
+            <point key="canvasLocation" x="1716" y="31.934032983508249"/>
         </scene>
         <!--Data and Information-->
         <scene sceneID="lzu-oR-5qR">
@@ -195,6 +220,7 @@
         </scene>
     </scenes>
     <resources>
+        <image name="interwebs" width="1280" height="1280"/>
         <image name="javaSample@1x" width="1126" height="754"/>
         <image name="map" width="537" height="410"/>
     </resources>

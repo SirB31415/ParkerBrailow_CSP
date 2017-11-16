@@ -12,7 +12,7 @@ class Global_Impact: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        setup()
         // Do any additional setup after loading the view.
     }
 
@@ -21,7 +21,12 @@ class Global_Impact: UIViewController {
         // Dispose of any resources that can be recreated.
     }
     
-
+    @IBOutlet weak var AddressProblem: UILabel!
+    private func setup() -> Void
+    {
+        AddressProblem.text = "Global warming is currently going to"
+    }
+    
     /*
     // MARK: - Navigation
 
