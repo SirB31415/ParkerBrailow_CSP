@@ -8,7 +8,8 @@
 
 import UIKit
 
-public class Abstraction: UIPageViewController, UIPageViewControllerDataSource {
+public class Abstraction: UIPageViewController, UIPageViewControllerDataSource
+{
     
     //Mark: Array of subviews
     private (set) lazy var orderedAbstractionViews  : [UIViewController] =
@@ -23,12 +24,44 @@ public class Abstraction: UIPageViewController, UIPageViewControllerDataSource {
     }()
     
     //Helper method to retrieve the correct ViewController
-    override func viewDidLoad() {
+    private func newAbstractionViewController(abstractionLevel : String) -> UIViewController
+    {
+        return UIStoryboard(name: "Main", bundle: nil).instantiateViewController(withIdentifier: "\(abstractionLevel)ViewController")
+    }
+    
+    override public func viewDidLoad()
+    {
         super.viewDidLoad()
-
-        // Do any additional setup after loading the view.
+        dataSource = self
+        
+        if let firstViewController = orderedAbstractionViews.first
+        {
+            setViewControllers([firstViewController],
+                               direction: .forward,
+                               animated: true,
+                               completion: nil)
+        }
     }
 
+    //Mark:- Required Protocol methods for UIPageViewController
+    public func pageViewController(_ pageViewController: UIPageViewController, viewControllerBefore viewController: UIViewController) ->UIViewController?
+    {
+        guard let viewControllerIndex = orderedAbstractionViews.index(of: viewController)
+            else
+        {
+            return nil
+        }
+     
+        let previousIndex = viewControllerIndex - 1
+        
+        guard previousIndex >= 0
+        else
+        {
+            return nil
+        }
+        return orderedAbstractionViews[previousIndex]
+    }
+    
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
