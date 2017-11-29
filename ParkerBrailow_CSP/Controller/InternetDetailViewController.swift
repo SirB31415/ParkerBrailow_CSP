@@ -1,26 +1,27 @@
 //
-//  The Internet.swift
+//  InternetDetailViewController.swift
 //  ParkerBrailow_CSP
 //
-//  Created by Brailow, Parker on 10/26/17.
+//  Created by Brailow, Parker on 11/29/17.
 //  Copyright © 2017 Brailow Inc. All rights reserved.
 //
 
 import UIKit
 
-class The_Internet: UIViewController {
+public class InternetDetailViewController: UIViewController
+{
 
-    override func viewDidLoad() {
+    //MARK: GUI Controls
+    override public func viewDidLoad() {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
     }
 
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
+    private func setup() -> Void
+    {
+        
     }
-    
 
     /*
     // MARK: - Navigation

@@ -21,8 +21,9 @@
 		FA91E5D21FA25CDF008B11CE /* Data and Information.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA91E5D11FA25CDF008B11CE /* Data and Information.swift */; };
 		FA91E5D41FA25CF7008B11CE /* Algorithms.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA91E5D31FA25CF7008B11CE /* Algorithms.swift */; };
 		FA91E5D61FA25D08008B11CE /* Programming.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA91E5D51FA25D08008B11CE /* Programming.swift */; };
-		FA91E5D81FA25D1E008B11CE /* The Internet.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA91E5D71FA25D1E008B11CE /* The Internet.swift */; };
+		FA91E5D81FA25D1E008B11CE /* InternetMasterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA91E5D71FA25D1E008B11CE /* InternetMasterViewController.swift */; };
 		FA91E5DA1FA25D36008B11CE /* Global Impact.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA91E5D91FA25D36008B11CE /* Global Impact.swift */; };
+		FAE4A9381FCF39A500D74C8F /* InternetDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAE4A9371FCF39A500D74C8F /* InternetDetailViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,8 +55,9 @@
 		FA91E5D11FA25CDF008B11CE /* Data and Information.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Data and Information.swift"; sourceTree = "<group>"; };
 		FA91E5D31FA25CF7008B11CE /* Algorithms.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Algorithms.swift; sourceTree = "<group>"; };
 		FA91E5D51FA25D08008B11CE /* Programming.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Programming.swift; sourceTree = "<group>"; };
-		FA91E5D71FA25D1E008B11CE /* The Internet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "The Internet.swift"; sourceTree = "<group>"; };
+		FA91E5D71FA25D1E008B11CE /* InternetMasterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InternetMasterViewController.swift; sourceTree = "<group>"; };
 		FA91E5D91FA25D36008B11CE /* Global Impact.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Global Impact.swift"; sourceTree = "<group>"; };
+		FAE4A9371FCF39A500D74C8F /* InternetDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InternetDetailViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -126,8 +128,9 @@
 				FA91E5D11FA25CDF008B11CE /* Data and Information.swift */,
 				FA91E5D31FA25CF7008B11CE /* Algorithms.swift */,
 				FA91E5D51FA25D08008B11CE /* Programming.swift */,
-				FA91E5D71FA25D1E008B11CE /* The Internet.swift */,
+				FA91E5D71FA25D1E008B11CE /* InternetMasterViewController.swift */,
 				FA91E5D91FA25D36008B11CE /* Global Impact.swift */,
+				FAE4A9371FCF39A500D74C8F /* InternetDetailViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -266,13 +269,14 @@
 				FA91E5DA1FA25D36008B11CE /* Global Impact.swift in Sources */,
 				FA91E5CE1FA25CBA008B11CE /* Creativity.swift in Sources */,
 				FA91E5AC1FA256DF008B11CE /* ViewController.swift in Sources */,
+				FAE4A9381FCF39A500D74C8F /* InternetDetailViewController.swift in Sources */,
 				FA91E5D21FA25CDF008B11CE /* Data and Information.swift in Sources */,
 				FA91E5D01FA25CCB008B11CE /* Abstraction.swift in Sources */,
 				FA91E5D61FA25D08008B11CE /* Programming.swift in Sources */,
 				FA009C971FC35FDE00F178B8 /* isPunched.swift in Sources */,
 				FA91E5AA1FA256DF008B11CE /* AppDelegate.swift in Sources */,
 				FA91E5D41FA25CF7008B11CE /* Algorithms.swift in Sources */,
-				FA91E5D81FA25D1E008B11CE /* The Internet.swift in Sources */,
+				FA91E5D81FA25D1E008B11CE /* InternetMasterViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
