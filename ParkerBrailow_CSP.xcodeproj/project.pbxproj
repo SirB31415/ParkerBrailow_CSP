@@ -24,6 +24,7 @@
 		FA91E5D81FA25D1E008B11CE /* InternetMasterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA91E5D71FA25D1E008B11CE /* InternetMasterViewController.swift */; };
 		FA91E5DA1FA25D36008B11CE /* Global Impact.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA91E5D91FA25D36008B11CE /* Global Impact.swift */; };
 		FAE4A9381FCF39A500D74C8F /* InternetDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAE4A9371FCF39A500D74C8F /* InternetDetailViewController.swift */; };
+		FAE4A93B1FCF3B9800D74C8F /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FAE4A93A1FCF3B9800D74C8F /* WebKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -58,6 +59,7 @@
 		FA91E5D71FA25D1E008B11CE /* InternetMasterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InternetMasterViewController.swift; sourceTree = "<group>"; };
 		FA91E5D91FA25D36008B11CE /* Global Impact.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Global Impact.swift"; sourceTree = "<group>"; };
 		FAE4A9371FCF39A500D74C8F /* InternetDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InternetDetailViewController.swift; sourceTree = "<group>"; };
+		FAE4A93A1FCF3B9800D74C8F /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,6 +67,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FAE4A93B1FCF3B9800D74C8F /* WebKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -85,6 +88,7 @@
 				FA91E5A81FA256DF008B11CE /* ParkerBrailow_CSP */,
 				FA91E5BD1FA256DF008B11CE /* ParkerBrailow_CSPTests */,
 				FA91E5A71FA256DF008B11CE /* Products */,
+				FAE4A9391FCF3B9800D74C8F /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -159,6 +163,14 @@
 				FA91E5B01FA256DF008B11CE /* Assets.xcassets */,
 			);
 			path = Resources;
+			sourceTree = "<group>";
+		};
+		FAE4A9391FCF3B9800D74C8F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FAE4A93A1FCF3B9800D74C8F /* WebKit.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
