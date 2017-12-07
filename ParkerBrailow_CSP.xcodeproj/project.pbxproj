@@ -24,6 +24,7 @@
 		FA91E5D81FA25D1E008B11CE /* InternetMasterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA91E5D71FA25D1E008B11CE /* InternetMasterViewController.swift */; };
 		FA91E5DA1FA25D36008B11CE /* Global Impact.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA91E5D91FA25D36008B11CE /* Global Impact.swift */; };
 		FACB6D7D1FD9C2CA006E0D32 /* CreativityViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FACB6D7C1FD9C2CA006E0D32 /* CreativityViewController.swift */; };
+		FACB6D7F1FD9D36B006E0D32 /* ArtCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FACB6D7E1FD9D36B006E0D32 /* ArtCell.swift */; };
 		FAE4A9381FCF39A500D74C8F /* InternetDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAE4A9371FCF39A500D74C8F /* InternetDetailViewController.swift */; };
 		FAE4A93B1FCF3B9800D74C8F /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FAE4A93A1FCF3B9800D74C8F /* WebKit.framework */; };
 /* End PBXBuildFile section */
@@ -60,6 +61,7 @@
 		FA91E5D71FA25D1E008B11CE /* InternetMasterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InternetMasterViewController.swift; sourceTree = "<group>"; };
 		FA91E5D91FA25D36008B11CE /* Global Impact.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Global Impact.swift"; sourceTree = "<group>"; };
 		FACB6D7C1FD9C2CA006E0D32 /* CreativityViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreativityViewController.swift; sourceTree = "<group>"; };
+		FACB6D7E1FD9D36B006E0D32 /* ArtCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArtCell.swift; sourceTree = "<group>"; };
 		FAE4A9371FCF39A500D74C8F /* InternetDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InternetDetailViewController.swift; sourceTree = "<group>"; };
 		FAE4A93A1FCF3B9800D74C8F /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
@@ -137,6 +139,7 @@
 				FA91E5D91FA25D36008B11CE /* Global Impact.swift */,
 				FAE4A9371FCF39A500D74C8F /* InternetDetailViewController.swift */,
 				FACB6D7C1FD9C2CA006E0D32 /* CreativityViewController.swift */,
+				FACB6D7E1FD9D36B006E0D32 /* ArtCell.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -281,6 +284,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				FA009C951FC35FCF00F178B8 /* Punchable.swift in Sources */,
+				FACB6D7F1FD9D36B006E0D32 /* ArtCell.swift in Sources */,
 				FA91E5DA1FA25D36008B11CE /* Global Impact.swift in Sources */,
 				FA91E5AC1FA256DF008B11CE /* ViewController.swift in Sources */,
 				FAE4A9381FCF39A500D74C8F /* InternetDetailViewController.swift in Sources */,
