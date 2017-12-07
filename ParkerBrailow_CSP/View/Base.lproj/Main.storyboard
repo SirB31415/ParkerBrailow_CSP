@@ -17,8 +17,13 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="2uK-y2-7ma" customClass="DrawingView" customModule="ParkerBrailow_CSP" customModuleProvider="target">
+                                <rect key="frame" x="33" y="34" width="312" height="339"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.5" green="0.0" blue="0.5" alpha="1" colorSpace="calibratedRGB"/>
+                            </view>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="osi-74-Aaa">
-                                <rect key="frame" x="138" y="308" width="98" height="51"/>
+                                <rect key="frame" x="140" y="428" width="98" height="51"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
                                 <connections>
@@ -86,7 +91,7 @@
             </objects>
             <point key="canvasLocation" x="1133.5999999999999" y="2378.8605697151424"/>
         </scene>
-        <!--Root View Controller-->
+        <!--Internet Samples-->
         <scene sceneID="hNU-Gn-AWS">
             <objects>
                 <tableViewController clearsSelectionOnViewWillAppear="NO" id="L1I-ya-CoU" customClass="InternetMasterViewController" customModule="ParkerBrailow_CSP" customModuleProvider="target" sceneMemberID="viewController">
@@ -102,6 +107,9 @@
                                     <rect key="frame" x="0.0" y="0.0" width="375" height="43.5"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                 </tableViewCellContentView>
+                                <connections>
+                                    <segue destination="1kH-jK-Mb7" kind="showDetail" identifier="showDetail" id="TsC-QQ-xpj"/>
+                                </connections>
                             </tableViewCell>
                         </prototypes>
                         <connections>
@@ -109,7 +117,7 @@
                             <outlet property="delegate" destination="L1I-ya-CoU" id="Mbj-k8-AH4"/>
                         </connections>
                     </tableView>
-                    <navigationItem key="navigationItem" title="Root View Controller" id="4MG-sK-6jM"/>
+                    <navigationItem key="navigationItem" title="Internet Samples" id="4MG-sK-6jM"/>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="QoB-eh-5qi" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -460,4 +468,7 @@
         <image name="javaSample@1x" width="1126" height="754"/>
         <image name="map" width="537" height="410"/>
     </resources>
+    <inferredMetricsTieBreakers>
+        <segue reference="TsC-QQ-xpj"/>
+    </inferredMetricsTieBreakers>
 </document>

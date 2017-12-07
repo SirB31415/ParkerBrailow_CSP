@@ -25,16 +25,20 @@ class InternetMasterViewController: UITableViewController
     
     private var detailViewController: InternetDetailViewController?
     
+    private lazy var addresses : [String] = []
+    
     private func setup() -> Void
     {
-        
+        addresses = [
+            "https://google.com/"]
     }
     
     override func viewDidLoad()
     {
         super.viewDidLoad()
         setup()
-        self,clearsSelectionOnViewWillAppear = false
+        self.clearsSelectionOnViewWillAppear = false
+        
     }
     
     //MARK: - Table viewdata source
@@ -52,7 +56,7 @@ class InternetMasterViewController: UITableViewController
     
     override public func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell
     {
-        let cell = tableView.dequeueReusableCell(withIdentifier: "reuseIdentifier", for: IndexPath)
+        let cell = tableView.dequeueReusableCell(withIdentifier: "reuseIdentifier", for: indexPath)
         let currentText = internetTopics[indexPath.row]
         cell.textLabel!.text = currentText
         
@@ -65,14 +69,32 @@ class InternetMasterViewController: UITableViewController
     }
     
 
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destinationViewController.
-        // Pass the selected object to the new view controller.
+    //MARK: handlethe internal transfer
+    override public func prepare(for segue: UIStoryboardSegue, sender: Any?)
+    {
+        if segue.identifier! == "showDetail"
+        {
+            if let indexPath = self.tableView.indexPathForSelectedRow
+            {
+                let urlString = addresses[indexPath.row]
+                let pageText : String
+                
+                if indexPath.row == 0
+                {
+                    //TODO: replace with your definitions
+                    pageText = "All the definitions you wrote....."
+                }
+                else
+                {
+                    pageText = internetTopics[indexPath.row]
+                    
+                }
+                let controller = segue.destination as! InternetDetailViewController
+                
+                controller.detailAddress = urlString
+                controller.detailText = pageText
+                controller.navigationItem.leftItemsSupplementBackButton = true
+            }
+        }
     }
-    */
-
 }
