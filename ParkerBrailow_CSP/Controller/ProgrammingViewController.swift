@@ -1,14 +1,14 @@
 //
-//  Programming.swift
+//  ProgrammingViewController.swift
 //  ParkerBrailow_CSP
 //
-//  Created by Brailow, Parker on 10/26/17.
+//  Created by Brailow, Parker on 12/13/17.
 //  Copyright © 2017 Brailow Inc. All rights reserved.
 //
 
 import UIKit
 
-class Programming: UIViewController {
+class ProgrammingViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
