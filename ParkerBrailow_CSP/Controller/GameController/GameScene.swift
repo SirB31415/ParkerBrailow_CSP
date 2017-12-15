@@ -14,7 +14,7 @@ public class GameScene: SKScene, SKPhysicsContactDelegate
 {
     //MARK: Invader Data
     let rowsOfInvaders : Int = 4
-    var invaderSpeed : Int = 2
+    var invaderSpeed : Double = 6.9
     var invadersThatCanFire : [Invader] = []
     
     //MARK: Player Data
@@ -58,7 +58,7 @@ public class GameScene: SKScene, SKPhysicsContactDelegate
 
     private func setupPlayer() -> Void
     {
-        player.position = CGPoint(x: self.frame.view.midX, y: player.size.height/2 + 10)
+        player.position = CGPoint(x: self.frame.midX, y: player.size.height/2 + 10)
         addChild(player)
     }
     
@@ -134,12 +134,12 @@ public class GameScene: SKScene, SKPhysicsContactDelegate
 
     override public func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) -> Void
     {
-       
+        player.fireBullet(scene: self)
     }
     
     override public func update(_ currentTime: CFTimeInterval) -> Void
     {
-        
+        moveInvaders()
     }
     
     override public func didSimulatePhysics()
@@ -163,11 +163,12 @@ public class GameScene: SKScene, SKPhysicsContactDelegate
     
     //MARK:- SKPhysicsContactDelegate method
     
-    func didBeginContact(contact: SKPhysicsContact) -> Void
+    public func didBegin(_ contact: SKPhysicsContact) -> Void
     {
         
         var firstBody: SKPhysicsBody
         var secondBody: SKPhysicsBody
+        
         if contact.bodyA.categoryBitMask < contact.bodyB.categoryBitMask
         {
             firstBody = contact.bodyA
@@ -177,6 +178,18 @@ public class GameScene: SKScene, SKPhysicsContactDelegate
         {
             firstBody = contact.bodyB
             secondBody = contact.bodyA
+        }
+        if ((firstBody.categoryBitMask & CollisionCategories.Invader != 0) && (secondBody.categoryBitMask & CollisionCategories.PlayerBullet != 0))
+        {
+            print("Invader and Player Bullet Contact")
+        }
+        if ((firstBody.categoryBitMask & CollisionCategories.Player != 0) && (secondBody.categoryBitMask & CollisionCategories.InvaderBullet != 0))
+        {
+            print("Player and Invader Bullet Contact")
+        }
+        if ((firstBody.categoryBitMask & CollisionCategories.Invader != 0) && (secondBody.categoryBitMask & CollisionCategories.Player != 0))
+        {
+            print("Invader and Player Collision Contact")
         }
         
     }
