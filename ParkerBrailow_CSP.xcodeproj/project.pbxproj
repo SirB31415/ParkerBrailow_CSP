@@ -38,6 +38,7 @@
 		FA91E5D41FA25CF7008B11CE /* Algorithms.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA91E5D31FA25CF7008B11CE /* Algorithms.swift */; };
 		FA91E5D81FA25D1E008B11CE /* InternetMasterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA91E5D71FA25D1E008B11CE /* InternetMasterViewController.swift */; };
 		FA91E5DA1FA25D36008B11CE /* Global Impact.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA91E5D91FA25D36008B11CE /* Global Impact.swift */; };
+		FA9AD6E31FE9B17100A299EB /* DeathScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA9AD6E21FE9B17100A299EB /* DeathScene.swift */; };
 		FACB6D7D1FD9C2CA006E0D32 /* CreativityViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FACB6D7C1FD9C2CA006E0D32 /* CreativityViewController.swift */; };
 		FACB6D7F1FD9D36B006E0D32 /* ArtCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FACB6D7E1FD9D36B006E0D32 /* ArtCell.swift */; };
 		FAE4A9381FCF39A500D74C8F /* InternetDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAE4A9371FCF39A500D74C8F /* InternetDetailViewController.swift */; };
@@ -90,6 +91,7 @@
 		FA91E5D31FA25CF7008B11CE /* Algorithms.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Algorithms.swift; sourceTree = "<group>"; };
 		FA91E5D71FA25D1E008B11CE /* InternetMasterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InternetMasterViewController.swift; sourceTree = "<group>"; };
 		FA91E5D91FA25D36008B11CE /* Global Impact.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Global Impact.swift"; sourceTree = "<group>"; };
+		FA9AD6E21FE9B17100A299EB /* DeathScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeathScene.swift; sourceTree = "<group>"; };
 		FACB6D7C1FD9C2CA006E0D32 /* CreativityViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreativityViewController.swift; sourceTree = "<group>"; };
 		FACB6D7E1FD9D36B006E0D32 /* ArtCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArtCell.swift; sourceTree = "<group>"; };
 		FAE4A9371FCF39A500D74C8F /* InternetDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InternetDetailViewController.swift; sourceTree = "<group>"; };
@@ -121,6 +123,7 @@
 				FA1F3B041FE1AB55007D6DFD /* GameScene.swift */,
 				FA1F3B061FE1AB55007D6DFD /* LevelCompleteScene.swift */,
 				FA1F3B051FE1AB55007D6DFD /* StartScene.swift */,
+				FA9AD6E21FE9B17100A299EB /* DeathScene.swift */,
 			);
 			path = GameController;
 			sourceTree = "<group>";
@@ -373,6 +376,7 @@
 				FA91E5AA1FA256DF008B11CE /* AppDelegate.swift in Sources */,
 				FA91E5D41FA25CF7008B11CE /* Algorithms.swift in Sources */,
 				FA91E5D81FA25D1E008B11CE /* InternetMasterViewController.swift in Sources */,
+				FA9AD6E31FE9B17100A299EB /* DeathScene.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
