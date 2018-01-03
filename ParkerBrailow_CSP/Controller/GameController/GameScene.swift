@@ -231,15 +231,15 @@ public class GameScene: SKScene, SKPhysicsContactDelegate
         {
             print("Invader and Player Collision Contact")
         }
-        if ((firstBody.category.BitMask & CollisionCategories.Player !=0) && (secondBody.categoryBitMask & CollisionCategories.InvaderLaser !=0))
+        if ((firstBody.categoryBitMask & CollisionCategories.Player != 0) && (secondBody.categoryBitMask & CollisionCategories.InvaderBullet != 0))
         {
             player.die()
         }
-        if ((firstBody.categoryBitMask & CollisionCategories.Invader !=0) && (secondBody.categoryBitMask & CollisionCategories.PlayerLaser !=0))
+        if ((firstBody.categoryBitMask & CollisionCategories.Invader != 0) && (secondBody.categoryBitMask & CollisionCategories.PlayerBullet != 0))
         {
             player.kill()
         }
-        if ((firstBody.categoryBitMask & CollisionCategories.Invader !=0) && (secondBody.categoryBitMask & CollisionCategories.PlayerLaser !=0))
+        if ((firstBody.categoryBitMask & CollisionCategories.Invader != 0) && (secondBody.categoryBitMask & CollisionCategories.Player != 0))
         {
             if (contact.bodyA.node?.parent == nil || contact.bodyB.node?.parent == nil)
             {
