@@ -27,6 +27,9 @@
 		FA1F3B251FE1B097007D6DFD /* ProgrammingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA1F3B241FE1B097007D6DFD /* ProgrammingViewController.swift */; };
 		FA4AD9AD1FB3A5A600B6EE5D /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FA4AD9AC1FB3A5A600B6EE5D /* Default-568h@2x.png */; };
 		FA63DB841FD72A8800ED62C0 /* DrawingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA63DB831FD72A8800ED62C0 /* DrawingView.swift */; };
+		FA82FA2520054430007B4EC1 /* DataViewControllerTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA82FA2420054430007B4EC1 /* DataViewControllerTableViewController.swift */; };
+		FA82FA2A20054546007B4EC1 /* bucket.csv in Resources */ = {isa = PBXBuildFile; fileRef = FA82FA2920054546007B4EC1 /* bucket.csv */; };
+		FA82FA2C200548A0007B4EC1 /* BucketItemCellTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA82FA2B200548A0007B4EC1 /* BucketItemCellTableViewCell.swift */; };
 		FA91E5AA1FA256DF008B11CE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA91E5A91FA256DF008B11CE /* AppDelegate.swift */; };
 		FA91E5AC1FA256DF008B11CE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA91E5AB1FA256DF008B11CE /* ViewController.swift */; };
 		FA91E5AF1FA256DF008B11CE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA91E5AD1FA256DF008B11CE /* Main.storyboard */; };
@@ -76,6 +79,9 @@
 		FA1F3B241FE1B097007D6DFD /* ProgrammingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgrammingViewController.swift; sourceTree = "<group>"; };
 		FA4AD9AC1FB3A5A600B6EE5D /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		FA63DB831FD72A8800ED62C0 /* DrawingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrawingView.swift; sourceTree = "<group>"; };
+		FA82FA2420054430007B4EC1 /* DataViewControllerTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataViewControllerTableViewController.swift; sourceTree = "<group>"; };
+		FA82FA2920054546007B4EC1 /* bucket.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = bucket.csv; sourceTree = "<group>"; };
+		FA82FA2B200548A0007B4EC1 /* BucketItemCellTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BucketItemCellTableViewCell.swift; sourceTree = "<group>"; };
 		FA91E5A61FA256DF008B11CE /* ParkerBrailow_CSP.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ParkerBrailow_CSP.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FA91E5A91FA256DF008B11CE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FA91E5AB1FA256DF008B11CE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -140,6 +146,15 @@
 			path = Sounds;
 			sourceTree = "<group>";
 		};
+		FA82FA2820054476007B4EC1 /* DataView */ = {
+			isa = PBXGroup;
+			children = (
+				FA82FA2420054430007B4EC1 /* DataViewControllerTableViewController.swift */,
+				FA82FA2B200548A0007B4EC1 /* BucketItemCellTableViewCell.swift */,
+			);
+			path = DataView;
+			sourceTree = "<group>";
+		};
 		FA91E59D1FA256DF008B11CE = {
 			isa = PBXGroup;
 			children = (
@@ -196,6 +211,7 @@
 				FACB6D7C1FD9C2CA006E0D32 /* CreativityViewController.swift */,
 				FACB6D7E1FD9D36B006E0D32 /* ArtCell.swift */,
 				FA1F3B241FE1B097007D6DFD /* ProgrammingViewController.swift */,
+				FA82FA2820054476007B4EC1 /* DataView */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -227,6 +243,7 @@
 		FA91E5CC1FA25779008B11CE /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				FA82FA2920054546007B4EC1 /* bucket.csv */,
 				FA1F3B161FE1AE90007D6DFD /* Utilities.swift */,
 				FA1F3B151FE1ADF3007D6DFD /* Sounds */,
 				FA91E5B51FA256DF008B11CE /* Info.plist */,
@@ -331,6 +348,7 @@
 				FA1F3B191FE1AF8F007D6DFD /* StarField.sks in Resources */,
 				FA1F3B131FE1ADE2007D6DFD /* invader sound.mp3 in Resources */,
 				FA1F3B121FE1ADE2007D6DFD /* boss sound.mp3 in Resources */,
+				FA82FA2A20054546007B4EC1 /* bucket.csv in Resources */,
 				FA4AD9AD1FB3A5A600B6EE5D /* Default-568h@2x.png in Resources */,
 				FA91E5B11FA256DF008B11CE /* Assets.xcassets in Resources */,
 				FA91E5AF1FA256DF008B11CE /* Main.storyboard in Resources */,
@@ -363,12 +381,14 @@
 				FA91E5DA1FA25D36008B11CE /* Global Impact.swift in Sources */,
 				FA91E5AC1FA256DF008B11CE /* ViewController.swift in Sources */,
 				FA1F3B171FE1AE91007D6DFD /* Utilities.swift in Sources */,
+				FA82FA2C200548A0007B4EC1 /* BucketItemCellTableViewCell.swift in Sources */,
 				FAE4A9381FCF39A500D74C8F /* InternetDetailViewController.swift in Sources */,
 				FA63DB841FD72A8800ED62C0 /* DrawingView.swift in Sources */,
 				FA1F3B251FE1B097007D6DFD /* ProgrammingViewController.swift in Sources */,
 				FA1F3B081FE1AB55007D6DFD /* StartScene.swift in Sources */,
 				FA91E5D21FA25CDF008B11CE /* Data and Information.swift in Sources */,
 				FA91E5D01FA25CCB008B11CE /* Abstraction.swift in Sources */,
+				FA82FA2520054430007B4EC1 /* DataViewControllerTableViewController.swift in Sources */,
 				FA1F3B1F1FE1AFD3007D6DFD /* PlayerLaser.swift in Sources */,
 				FA009C971FC35FDE00F178B8 /* isPunched.swift in Sources */,
 				FA1F3B211FE1AFD3007D6DFD /* Invader.swift in Sources */,

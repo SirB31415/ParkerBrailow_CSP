@@ -30,7 +30,11 @@ class InternetMasterViewController: UITableViewController
     private func setup() -> Void
     {
         addresses = [
-            "https://google.com/"]
+            "https://apstudent.collegeboard.org/apcourse/ap-computer-science-principles",
+            "http://www.canyonsdistrict.org",
+            "https://ctec.canyonsdistrict.org",
+            "https://developer.apple.com/library/content/documentation/Swift/Conceptual/Swift_Programming_Language/TheBasics.html#//apple_ref/doc/uid/TP40014097-CH5-ID309",
+            "https://twitter.com"]
     }
     
     override func viewDidLoad()
