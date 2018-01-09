@@ -30,6 +30,7 @@
 		FA82FA2520054430007B4EC1 /* DataViewControllerTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA82FA2420054430007B4EC1 /* DataViewControllerTableViewController.swift */; };
 		FA82FA2A20054546007B4EC1 /* bucket.csv in Resources */ = {isa = PBXBuildFile; fileRef = FA82FA2920054546007B4EC1 /* bucket.csv */; };
 		FA82FA2C200548A0007B4EC1 /* BucketItemCellTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA82FA2B200548A0007B4EC1 /* BucketItemCellTableViewCell.swift */; };
+		FA82FA2E20056145007B4EC1 /* BucketItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA82FA2D20056145007B4EC1 /* BucketItem.swift */; };
 		FA91E5AA1FA256DF008B11CE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA91E5A91FA256DF008B11CE /* AppDelegate.swift */; };
 		FA91E5AC1FA256DF008B11CE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA91E5AB1FA256DF008B11CE /* ViewController.swift */; };
 		FA91E5AF1FA256DF008B11CE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA91E5AD1FA256DF008B11CE /* Main.storyboard */; };
@@ -82,6 +83,7 @@
 		FA82FA2420054430007B4EC1 /* DataViewControllerTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataViewControllerTableViewController.swift; sourceTree = "<group>"; };
 		FA82FA2920054546007B4EC1 /* bucket.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = bucket.csv; sourceTree = "<group>"; };
 		FA82FA2B200548A0007B4EC1 /* BucketItemCellTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BucketItemCellTableViewCell.swift; sourceTree = "<group>"; };
+		FA82FA2D20056145007B4EC1 /* BucketItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BucketItem.swift; sourceTree = "<group>"; };
 		FA91E5A61FA256DF008B11CE /* ParkerBrailow_CSP.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ParkerBrailow_CSP.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FA91E5A91FA256DF008B11CE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FA91E5AB1FA256DF008B11CE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -236,6 +238,7 @@
 				FA1F3B1B1FE1AFD3007D6DFD /* Projectile.swift */,
 				FA009C941FC35FCF00F178B8 /* Punchable.swift */,
 				FA009C961FC35FDE00F178B8 /* isPunched.swift */,
+				FA82FA2D20056145007B4EC1 /* BucketItem.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -374,6 +377,7 @@
 				FA1F3B201FE1AFD3007D6DFD /* Projectile.swift in Sources */,
 				FA1F3B221FE1AFD3007D6DFD /* InvaderLaser.swift in Sources */,
 				FA1F3B071FE1AB55007D6DFD /* GameScene.swift in Sources */,
+				FA82FA2E20056145007B4EC1 /* BucketItem.swift in Sources */,
 				FA009C951FC35FCF00F178B8 /* Punchable.swift in Sources */,
 				FA1F3B231FE1AFD3007D6DFD /* Player.swift in Sources */,
 				FACB6D7F1FD9D36B006E0D32 /* ArtCell.swift in Sources */,

@@ -69,7 +69,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
                                 <connections>
-                                    <segue destination="m3q-Du-hwv" kind="show" id="SM2-Kf-hTt"/>
+                                    <segue destination="PFv-Ag-P9K" kind="show" id="jIB-Oe-acp"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -230,10 +230,10 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <prototypes>
-                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="74" id="9yc-mn-zXE" customClass="BucketItemCellTableViewCell" customModule="ParkerBrailow_CSP" customModuleProvider="target">
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="dataIdentifier" rowHeight="74" id="9yc-mn-zXE" customClass="BucketItemCellTableViewCell" customModule="ParkerBrailow_CSP" customModuleProvider="target">
                                 <rect key="frame" x="0.0" y="28" width="375" height="74"/>
                                 <autoresizingMask key="autoresizingMask"/>
-                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="9yc-mn-zXE" id="w7M-Xk-zZk" userLabel="dataIdentifier">
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="9yc-mn-zXE" id="w7M-Xk-zZk">
                                     <rect key="frame" x="0.0" y="0.0" width="375" height="73.5"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                     <subviews>
@@ -260,6 +260,11 @@
                                         </label>
                                     </subviews>
                                 </tableViewCellContentView>
+                                <connections>
+                                    <outlet property="bucketItemSignature" destination="wdv-7A-krg" id="Elo-vA-QCn"/>
+                                    <outlet property="bucketItemSymbol" destination="gic-bO-x85" id="0C4-l1-am4"/>
+                                    <outlet property="bucketItemText" destination="vz6-pP-Wsd" id="9kc-bQ-yUq"/>
+                                </connections>
                             </tableViewCell>
                         </prototypes>
                         <connections>
